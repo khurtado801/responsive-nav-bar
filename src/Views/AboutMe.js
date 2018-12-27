@@ -1,11 +1,5 @@
 import React from 'react';
 
-const AboutMe = () => {
-	return (
-		<div>
-			<h1>I'm from AboutMe!</h1>
-		</div>
-	);
-};
+const AboutMe = () => <h1>I'm from About Me!</h1>;
 
 export default AboutMe;
