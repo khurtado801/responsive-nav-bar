@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Switch, Route } from 'react-router-dom';
-import Main from '../../Views/Main';
-import AboutMe from '../../Views/AboutMe';
+import Home from '../Home/Home';
+import AboutMe from '../AboutMe/AboutMe';
 
 import '../../styles/NavBar.css';
 
@@ -30,7 +30,7 @@ const NavBar = () => {
 			</nav>
 			<div className="content">
 				<Switch>
-					<Route exact path='/' component={Main} />
+					<Route exact path='/' component={Home} />
 					<Route path="/AboutMe" component={AboutMe} />
 				</Switch>
 			</div>
